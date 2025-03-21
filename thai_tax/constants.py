@@ -201,6 +201,15 @@ ERP_CUSTOM_FIELDS = {
 			"no_copy": 1,
 		},
 		{
+			"description": "Use this field only when you want to overwrite",
+			"fieldname": "base_amount_overwrite",
+			"fieldtype": "Currency",
+            "insert_after": "tax_invoice_number",
+			"label": "Base Amount Overwrite",
+			"no_copy": 1,
+			"options": "Company:company:default_currency",
+		},
+		{
 			"fieldname": "column_break_cijbv",
 			"fieldtype": "Column Break",
 			"insert_after": "tax_invoice_number",
