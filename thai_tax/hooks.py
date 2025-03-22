@@ -86,6 +86,7 @@ jinja = {
 # before_install = "thai_tax.install.before_install"
 after_install = "thai_tax.install.after_install"
 after_app_install = "thai_tax.install.after_app_install"
+after_migrate = "thai_tax.install.after_migrate"
 
 # Uninstallation
 # ------------
